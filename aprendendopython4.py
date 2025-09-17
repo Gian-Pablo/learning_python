@@ -52,7 +52,15 @@
 #     for pessoas in vetor:
 #         print(pessoas)
 
-# Decisão Aleatória de Número
-# from random import randint
-# computador = randint(0, 10)
-# print(computador)
+#Decisão Aleatória de Número
+
+# import random
+# numero = random.randint(0, 10)
+# escolha = input('Adivinhe um número entre 0 e 10: ')
+# escolha = int(escolha)
+
+# if escolha == numero:
+#     print('Você adivinhou o número correto! Parabéns!')
+# else:
+#     print(numero)
+#     print('Que pena! Esse não é o número correto!')
